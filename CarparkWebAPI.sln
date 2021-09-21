@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarparkWebAPI", "CarparkWebAPI\CarparkWebAPI.csproj", "{B7257835-9A10-4F4A-9CFA-424DD6273300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7257835-9A10-4F4A-9CFA-424DD6273300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7257835-9A10-4F4A-9CFA-424DD6273300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7257835-9A10-4F4A-9CFA-424DD6273300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7257835-9A10-4F4A-9CFA-424DD6273300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F742779-165A-47DE-8896-515C4F4635EB}
+	EndGlobalSection
+EndGlobal
