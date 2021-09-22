@@ -61,6 +61,38 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "LabNotebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy_ez5",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/lee2109databricks/03-Data-Ingestion-Via-ADF/includes/Databricks-Data-Transformations",
+					"baseParameters": {
+						"accountName": "lee2109blob",
+						"accountKey": "JIBe/8bP6yolPJ72uR2aiGV2XBgFoDifGeOML5/9Vlj+PBNypK29GY/J+R2dBcALCzJeiEnkfLESJdiRagdxuw==",
+						"containerName": "dwtemp"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
